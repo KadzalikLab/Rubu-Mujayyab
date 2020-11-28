@@ -35,7 +35,7 @@ public class NilaiQous : MonoBehaviour
         string JaibT;
 
         
-        float posisiSitini=-200.294f*nilaiSittini;//200.294 adalah nilai batas wilayah rubuk dalam app ini
+        float posisiSitini=-200.872f*nilaiSittini;//200.294 adalah nilai batas wilayah rubuk dalam app ini
         float posisiJaibT=-200.872f*nilaiJaibT;
 
 

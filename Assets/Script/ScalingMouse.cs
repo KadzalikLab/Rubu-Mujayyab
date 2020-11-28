@@ -11,7 +11,7 @@ public class ScalingMouse : MonoBehaviour
 
 
 private void Start() {
-    Screen.fullScreen = false; 
+     if (Application.platform == RuntimePlatform.WindowsPlayer) {Screen.fullScreen = false; }
 }
 
      private void OnGUI() {

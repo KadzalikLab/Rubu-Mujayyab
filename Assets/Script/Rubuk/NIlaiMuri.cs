@@ -45,9 +45,9 @@ public class NIlaiMuri : MonoBehaviour
         Muri.transform.localPosition=new Vector3(0,posisiMuri,0f);
 
 
-        float posisiMuriS=-200.294f*nilaiSittini;
+        float posisiMuriS=-200.872f*nilaiSittini;
     
-        float posisiMuriJ=-200.294f*nilaiJaibT;
+        float posisiMuriJ=-200.872f*nilaiJaibT;
 
         
 
@@ -74,7 +74,7 @@ public class NIlaiMuri : MonoBehaviour
              TitikQousMuri.localEulerAngles=new Vector3(0,0,angleMuri);
             }
             
-             MuriSittini.transform.localPosition=new Vector3(-200f*nilaiInput,10f,0);
+             MuriSittini.transform.localPosition=new Vector3(-200.872f*nilaiInput,10f,0);
              MuriJaibT.transform.localPosition=new Vector3(10f,0,0);
 
         int derajat = Konversi.DesimalKeDerajat(angleMuri%90)[1];
@@ -114,7 +114,7 @@ public class NIlaiMuri : MonoBehaviour
             }else{
                  TitikQousMuri.localEulerAngles=new Vector3(0,0,0);
                  MuriSittini.transform.localPosition=new Vector3(0,10f,0);
-                 MuriJaibT.transform.localPosition=new Vector3(10f,-200f*nilaiInput,0);
+                 MuriJaibT.transform.localPosition=new Vector3(10f,-200.872f*nilaiInput,0);
 
                     nilai="00"+"\u00B0 "+"00"+"\u2032";
                      nilaiMuriS="00"+"\u00B0 "+"00"+"\u2032";
