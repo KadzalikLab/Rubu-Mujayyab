@@ -591,7 +591,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: 10}
+  m_AnchoredPosition: {x: -30.8, y: -4.2}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196249003
@@ -830,6 +830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 348159257}
   - component: {fileID: 348159258}
+  - component: {fileID: 348159259}
   m_Layer: 5
   m_Name: Markaz
   m_TagString: Untagged
@@ -845,8 +846,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348159256}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.1}
-  m_LocalScale: {x: 0.2542136, y: 0.2542136, z: 0.2542136}
+  m_LocalPosition: {x: 0, y: 0, z: -0.09999489}
+  m_LocalScale: {x: 0.2542136, y: 0.25421363, z: 0.25421363}
   m_Children:
   - {fileID: 1723129448}
   - {fileID: 358065620}
@@ -857,7 +858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.1674, y: 27.2406}
+  m_AnchoredPosition: {x: 27.167402, y: 27.240599}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &348159258
@@ -868,6 +869,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348159256}
   m_CullTransparentMesh: 0
+--- !u!114 &348159259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348159256}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: b59d8b3d6a1754128ac189a70f41db08, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &358065619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,8 +1732,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488295299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.106531, y: -2.542136, z: -0.05083981}
-  m_LocalScale: {x: 9.910778, y: 0.9910768, z: 0.9910768}
+  m_LocalPosition: {x: 20.698, y: 1.067697, z: -0.050839994}
+  m_LocalScale: {x: 9.910776, y: 0.9910774, z: 0.9910774}
   m_Children: []
   m_Father: {fileID: 196249002}
   m_RootOrder: 0
@@ -1920,9 +1951,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514717856}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0317197, y: 1.0317197, z: 1.0215003}
+  m_LocalScale: {x: 1.0317196, y: 1.0317197, z: 1.0215005}
   m_Children:
   - {fileID: 895264481}
   m_Father: {fileID: 196249002}
@@ -1930,8 +1961,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 27.167402, y: 27.240599}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 27.1674, y: 27.2406}
+  m_SizeDelta: {x: 17.210663, y: 16.390167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &519935829
 GameObject:
@@ -2570,8 +2601,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693251909}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.106533, y: -2.542136, z: -0.2}
-  m_LocalScale: {x: 9.910782, y: 0.9910802, z: 0.9910802}
+  m_LocalPosition: {x: 20.698, y: 1.067697, z: -0.19999732}
+  m_LocalScale: {x: 9.910776, y: 0.9910774, z: 0.9910774}
   m_Children: []
   m_Father: {fileID: 196249002}
   m_RootOrder: 2
@@ -3423,7 +3454,7 @@ RectTransform:
   m_GameObject: {fileID: 1154850228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.031715, y: 1.031715, z: 1.0215001}
+  m_LocalScale: {x: 1.0317149, y: 1.031715, z: 1.0215002}
   m_Children:
   - {fileID: 344197863}
   - {fileID: 480267576}
@@ -3432,8 +3463,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 27.167402, y: 27.2406}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 27.1674, y: 27.2406}
+  m_SizeDelta: {x: 7.23835, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1223389533
 PrefabInstance:
@@ -3763,7 +3794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11476820, guid: 576b0985066f948b29da42ea6ff0aedb, type: 3}
       propertyPath: m_Text
-      value: Rubu' Mujayyab Digital v1.3
+      value: Rubu' Mujayyab Digital
       objectReference: {fileID: 0}
     - target: {fileID: 11476820, guid: 576b0985066f948b29da42ea6ff0aedb, type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -3777,6 +3808,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontStyle
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11476820, guid: 576b0985066f948b29da42ea6ff0aedb, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4eca4ed6e429f7d4e932523aac599caf,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 576b0985066f948b29da42ea6ff0aedb, type: 3}
 --- !u!224 &1319821427 stripped
@@ -4027,8 +4063,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387825255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.106535, y: -2.542136, z: -0.2}
-  m_LocalScale: {x: 9.910782, y: 0.9910802, z: 0.9910802}
+  m_LocalPosition: {x: 20.698, y: 1.067697, z: -0.19999732}
+  m_LocalScale: {x: 9.910776, y: 0.9910774, z: 0.9910774}
   m_Children: []
   m_Father: {fileID: 196249002}
   m_RootOrder: 3
@@ -4181,7 +4217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.27, y: -24.19}
+  m_AnchoredPosition: {x: -20.678581, y: -20.58017}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!135 &1565446586
@@ -4306,7 +4342,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: TouchScript.Gestures.Gesture+GestureEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  type: 7
+  type: 5
   screenTransformThreshold: 0.1
   minScreenPointsDistance: 0.5
   projectionProps: 0
@@ -4411,8 +4447,8 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Aplikasi Sumber Terbuka (Open Source) dengan lisensi GPL v3.0.
 
-        Anda dapat menemukan sumber kode, refrensi, dan sedikit keterangan Trigonometri
-        di akun Github kami /KadzalikLab'
+        Anda dapat menemukan sumber kode, refrensi, dan Sekilas Trigonometri di akun
+        Github kami /KadzalikLab'
       objectReference: {fileID: 0}
     - target: {fileID: 11476820, guid: 576b0985066f948b29da42ea6ff0aedb, type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -5047,8 +5083,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071807075}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.106531, y: -2.542136, z: -0.05083981}
-  m_LocalScale: {x: 9.910778, y: 0.9910768, z: 0.9910768}
+  m_LocalPosition: {x: 20.698, y: 1.067697, z: -0.050839994}
+  m_LocalScale: {x: 9.910776, y: 0.9910774, z: 0.9910774}
   m_Children: []
   m_Father: {fileID: 196249002}
   m_RootOrder: 7

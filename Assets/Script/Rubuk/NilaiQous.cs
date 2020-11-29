@@ -83,7 +83,7 @@ public class NilaiQous : MonoBehaviour
         JaibT="60"+"\u00B0 "+ "00" +"\u2032  ";
         Anchor.localEulerAngles=new Vector3(0,0,0);
         TitikSittini.transform.localPosition=new Vector3(0,10f,0);//menentukan posisi titik sittini
-        TitikJaibT.transform.localPosition=new Vector3(10f,-200.294f,0);
+        TitikJaibT.transform.localPosition=new Vector3(10f,-200.872f,0);
        
     }
 }
