@@ -28,11 +28,11 @@ kami sadar masih banyak kekurangan dalam projek ini. Anda dapat langsung memperb
 # Ketersedian Platform
 ## Android
 Tersedia di Playstore dengan minimal Android Jelly bean. namun sangat disarankan menggunakan Android versi Lolipop v5.1 keatas.
-[Unduh Versi android di sini](https://play.google.com/store/apps/details?id=com.kadzalik.rubuk)
+[Unduh untuk android di sini](https://play.google.com/store/apps/details?id=com.kadzalik.rubuk)
 
 ## Windows
-Tersedia untuk windows yang menggunakan basis arsitektur x86, belum dicoba untuk prosesor berbasis Arm
-[Unduh Versi Windows di sini](https://drive.google.com/file/d/1IBel4d3hZLEjqfn5ag9-w5ALSuKEb8-v/view?usp=sharing)
+Tersedia untuk windows yang menggunakan basis arsitektur x86, belum dicoba untuk prosesor berbasis Arm. 
+[Unduh untuk Windows di sini](https://drive.google.com/file/d/1IBel4d3hZLEjqfn5ag9-w5ALSuKEb8-v/view?usp=sharing)
 
 
 
